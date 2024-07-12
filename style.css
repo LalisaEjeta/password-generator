@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #760b0b;
+    font-family: Arial, sans-serif;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 51px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #e2c222;
+    border-radius: 50px;
+    box-shadow:  5px 5px 10px #5a4e0e, -5px -5px 10px #ffff36;
+  }
+  
+  .generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .copy-message {
+    margin-top: 10px;
+    color: green;
+    font-size: 14px;
+  }
+  

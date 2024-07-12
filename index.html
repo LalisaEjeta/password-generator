@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div style="background-color: #e2c222; border-radius: 50px; padding: 50px;">
+    <div class="container">
+      <h1>Strong Password Generator</h1>
+      <div class="generator">
+        <input type="text" id="password" readonly>
+        <input type="number" id="length" placeholder="Length" min="4">
+        <button onclick="generatePassword()">Generate Password</button>
+        <button onclick="copyToClipboard()">Copy Password</button>
+        <span id="copyMessage" class="copy-message"></span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
